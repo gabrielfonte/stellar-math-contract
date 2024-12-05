@@ -1,0 +1,10 @@
+# Rust's output directory
+target
+Cargo.lock
+
+# Local Soroban settings
+.soroban
+
+# IDE
+.idea
+

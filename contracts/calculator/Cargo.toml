@@ -1,0 +1,16 @@
+[package]
+name = "calculator"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+serde = { version = "1.0.214", features = ["derive"] }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
